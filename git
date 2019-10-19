@@ -1,0 +1,15 @@
+git 
+
+
+mkdir learngit //创建目录
+cd learngit //进入到目录
+
+pwd //显示当前的目录
+
+git init //把当前目录变成Git可以管理的仓库
+git add <filename> //添加到本地仓库
+git commit -m "版本控制" //提交到本地仓库
+git log //查看更新日志
+git remote add origin git@github.com:ch-main/learngit.git //连接远程库
+git push -u origin master //推送到远程库
+
